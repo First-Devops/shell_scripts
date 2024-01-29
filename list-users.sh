@@ -8,7 +8,7 @@ fi
 
 # Check if both REPO_OWNER and REPO_NAME are provided as command-line arguments
 if [ $# -ne 2 ]; then
-    echo "Usage: $0 <REPO_OWNER> <REPO_NAME>"
+    echo "Missing Command Line Args : $0 <REPO_OWNER> <REPO_NAME>"
     exit 1
 fi
 
